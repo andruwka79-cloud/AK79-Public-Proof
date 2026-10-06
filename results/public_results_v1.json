@@ -1,0 +1,78 @@
+{
+  "schema": "ak79.public.results.v1",
+  "date": "2026-10-06",
+  "classification": "PUBLIC_SAFE_DERIVATIVE_OF_VERIFIED_INTERNAL_EVIDENCE",
+  "external_certification": false,
+  "production_claim": false,
+  "results": {
+    "critical_ambiguity": {
+      "ak79_reference": "3/3",
+      "temporal_real_sdk": "3/3",
+      "duplicate_effects": {
+        "ak79": 0,
+        "temporal": 0
+      },
+      "verdict": "PARITY_ON_VISIBLE_PREFLIGHT"
+    },
+    "generalized_reconciliation": {
+      "ak79_reference": "4/4",
+      "temporal_real_sdk": "4/4",
+      "duplicate_effects": {
+        "ak79": 0,
+        "temporal": 0
+      },
+      "verdict": "PARITY_ON_VISIBLE_PREFLIGHT"
+    },
+    "live_github_ci": {
+      "push_attempts": {
+        "ak79": 1,
+        "temporal": 1
+      },
+      "duplicate_push_attempts": {
+        "ak79": 0,
+        "temporal": 0
+      },
+      "remote_sha_matched": {
+        "ak79": true,
+        "temporal": true
+      },
+      "ci_success": {
+        "ak79": true,
+        "temporal": true
+      },
+      "verdict": "RELIABILITY_PARITY_ON_TESTED_VISIBLE_TASK"
+    },
+    "single_class_packaging": {
+      "ak79": {
+        "ast_nodes": 1754,
+        "bytes": 9449
+      },
+      "temporal": {
+        "ast_nodes": 975,
+        "bytes": 5913
+      },
+      "verdict": "AK79_PACKAGING_ADVANTAGE_NOT_PROVEN"
+    },
+    "incremental_reuse": {
+      "ak79": {
+        "ast_nodes": 1735,
+        "bytes": 8821
+      },
+      "temporal": {
+        "ast_nodes": 2108,
+        "bytes": 11626
+      },
+      "ak79_to_temporal_ast_ratio": 0.823055028462998,
+      "ak79_to_temporal_byte_ratio": 0.7587304317908137,
+      "preregistered_kill_threshold": 0.8,
+      "verdict": "KILLED_UNDER_FROZEN_ACCOUNTING",
+      "generation2_external_effects_run": false
+    }
+  },
+  "boundaries": {
+    "final_hidden_holdout_published": false,
+    "market_demand_proven": false,
+    "commercial_moat_proven": false,
+    "external_verifier_bound": false
+  }
+}

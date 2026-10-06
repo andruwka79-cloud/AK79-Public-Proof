@@ -1,0 +1,24 @@
+name: public-proof
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Run public ambiguity tests
+        run: python -m unittest discover -s tests -v
+      - name: Verify JSON parses
+        run: |
+          python -m json.tool benchmark/visible_vectors.json > /dev/null
+          python -m json.tool results/public_results_v1.json > /dev/null

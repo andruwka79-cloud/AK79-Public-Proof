@@ -1,0 +1,56 @@
+{
+  "schema": "ak79.public.visible_vectors.v1",
+  "note": "Public visible subset only. Final hidden holdout is not included.",
+  "vectors": [
+    {
+      "id": "V05",
+      "name": "ACK lost after external effect",
+      "expected": "reconcile remote state before retry"
+    },
+    {
+      "id": "V07",
+      "name": "Provider switch after UNKNOWN",
+      "expected": "preserve task identity; reconcile before continuation"
+    },
+    {
+      "id": "V13",
+      "name": "ACK lost plus provider switch",
+      "expected": "no blind replay; reconstruct terminal truth"
+    },
+    {
+      "id": "G01",
+      "name": "CREATE_UNIQUE",
+      "expected": "detect already-committed unique effect"
+    },
+    {
+      "id": "G02",
+      "name": "APPEND_ONCE_WITH_MARKER",
+      "expected": "detect prior append by stable marker"
+    },
+    {
+      "id": "G03",
+      "name": "COMPARE_AND_SET_VERSIONED",
+      "expected": "reconcile versioned state"
+    },
+    {
+      "id": "G04",
+      "name": "COMPOSITE_TWO_STEP_PARTIAL",
+      "expected": "resume only missing subeffects"
+    },
+    {
+      "id": "IR01",
+      "name": "LOCAL_ATOMIC_FILE_WRITE",
+      "expected": "verify exact content hash before retry"
+    },
+    {
+      "id": "IR02",
+      "name": "GITHUB_CONTENT_CREATE",
+      "expected": "remote readback before retry or cleanup"
+    },
+    {
+      "id": "IR03",
+      "name": "GITHUB_REF_CREATE",
+      "expected": "verify target SHA before retry or cleanup"
+    }
+  ]
+}
