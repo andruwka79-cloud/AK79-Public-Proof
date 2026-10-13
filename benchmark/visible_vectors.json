@@ -1,6 +1,6 @@
 {
   "schema": "ak79.public.visible_vectors.v1",
-  "note": "Public visible subset only. Final hidden holdout is not included.",
+  "note": "Public visible subset only. Final hidden holdout is not included. Only V13 has a runnable check in this repository.",
   "vectors": [
     {
       "id": "V05",
@@ -52,5 +52,8 @@
       "name": "GITHUB_REF_CREATE",
       "expected": "verify target SHA before retry or cleanup"
     }
+  ],
+  "runnable_in_repository": [
+    "V13"
   ]
 }
