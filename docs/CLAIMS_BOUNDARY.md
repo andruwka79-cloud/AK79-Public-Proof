@@ -32,9 +32,9 @@ Do not claim:
 
 ## Evidence classes
 
-VERIFIED_INTERNAL means a result is supported by machine-readable artifacts and internal independent QA.
+AUTHOR_REPORTED means a result is reported by the author from internal runs. The supporting artifacts are not published here, so the result cannot be reproduced from this repository.
 
-It does not mean external certification.
+It does not mean external certification, and it does not mean independent verification by a third party.
 
 FOUNDER_REPORTED means the fact comes from the founder and has not yet been independently reconstructed from external evidence.
 

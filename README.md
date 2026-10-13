@@ -6,7 +6,7 @@ This repository is not a claim that AK-79 is production-proven, externally certi
 
 ## What this release proves
 
-Internally verified results include:
+Results below are reported by the author from internal runs. The machine-readable artifacts behind them are not part of this repository, so they cannot be reproduced from here. Only the V13 scenario has a runnable check in this repository (harness and tests).
 
 - Critical ambiguity preflight: AK-79 reference 3/3, real Temporal SDK 3/3.
 - Generalized reconciliation preflight: AK-79 reference 4/4, real Temporal SDK 4/4.
@@ -90,4 +90,4 @@ That thesis is candidate / unproven.
 ## Version
 
 AK-79 Public Proof v1
-Date: 2026-10-06
+Date: 2026-10-06 (v1.0.1: verifier hardened, statuses restated, CI pinned)

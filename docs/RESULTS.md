@@ -1,6 +1,6 @@
 # Interim Results
 
-All results below are VERIFIED_INTERNAL unless stated otherwise.
+All results below are AUTHOR_REPORTED from internal runs. Their machine-readable artifacts are not published in this repository, so they are not reproducible from here unless stated otherwise.
 
 ## 1. Critical ambiguity preflight
 

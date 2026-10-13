@@ -1,26 +1,26 @@
 {
   "schema": "ak79.public_proof.release_manifest.v1",
   "release": "AK79 Public Proof v1",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "date": "2026-10-06",
-  "status": "FROZEN_VERIFIED_INTERNAL_PUBLICATION_READY",
+  "status": "REMEDIATED_V1_0_1_AUTHOR_REPORTED_STATUS",
   "source_classification": "SANITIZED_PUBLIC_DERIVATIVE_OF_VERIFIED_INTERNAL_EVIDENCE",
   "files": [
+    {
+      "path": ".github/workflows/public-proof.yml",
+      "sha256": "790a9c68e60d007a73278a457866849e81a5cc6835a73d8d916cebd5c51caf8a"
+    },
     {
       "path": ".gitignore",
       "sha256": "862263fa1f46c20f0d1e4dac5ffcc75abd55c08211b2c3864c5f8764b9d87793"
     },
     {
-      "path": ".github/workflows/public-proof.yml",
-      "sha256": "36d3d8a0133e5a5bfb6dc716e108b76316bf3bc7a1fd10e612862f31b7f2608d"
-    },
-    {
       "path": "benchmark/visible_vectors.json",
-      "sha256": "e4ace002e93bd307e159bd1934cc51a52107cbf7c23ff9ad236b1be612258953"
+      "sha256": "0519f098fe6518e9cfebb0e2c06625ee62325db371c5a32b07fa7c269bcfe3d6"
     },
     {
       "path": "docs/CLAIMS_BOUNDARY.md",
-      "sha256": "f40713a2141184c8f1d236f39b17da8a34a24b5ec84dfb73ecf947baedbb3e74"
+      "sha256": "733d7af4f37d91b8664ebb12e317ab59e3f14a06b861a821f9741ded321d1b65"
     },
     {
       "path": "docs/FOUNDER_STORY.md",
@@ -32,7 +32,7 @@
     },
     {
       "path": "docs/RESULTS.md",
-      "sha256": "2827bdffad362ef695a978ec25c5e28f963b64a4a3b0d4ab6660ff6d160ec77d"
+      "sha256": "254b075d883df5c72756199b4ca65bcbe7557ea488726ebc19d8be70439de994"
     },
     {
       "path": "docs/WHAT_FAILED.md",
@@ -48,11 +48,15 @@
     },
     {
       "path": "README.md",
-      "sha256": "bfd1a94c2be59eb629237765fcf0dd8ca89f4878ebc8e711f6d2bcc63b3ef659"
+      "sha256": "3d3b16a16ce2795abac9455a8a10f4461dd3f6ecd930ad2545053058302d3eef"
+    },
+    {
+      "path": "release/verify_release.py",
+      "sha256": "699223efbd2cb13c0f183e64ce2a8bb402406991d8d6ec64b04be0ddd566d142"
     },
     {
       "path": "results/public_results_v1.json",
-      "sha256": "88a11807d32cc330fc128c2474193f47096feef18295f3aa344a9f3eee77e8f7"
+      "sha256": "d2ae27326d1c0b609bbaa4665efc6efbb7f26e9da058031264c703462fd1e74e"
     },
     {
       "path": "SECURITY.md",
@@ -60,11 +64,7 @@
     },
     {
       "path": "tests/test_ambiguity_harness.py",
-      "sha256": "8569abd0156fbb8c8b393ac2a2a20777f384a64676e90919363d8c257789e200"
-    },
-    {
-      "path": "release/verify_release.py",
-      "sha256": "24163e54976b2b1e1dfb1420b883b4ec16cc68f768cc12d8e3ec462e57a64211"
+      "sha256": "49253ed2c83ca4b289c5a66cdaf468eed2d9f59aea1a94469101ad18b3848b46"
     }
   ],
   "public_claims": {

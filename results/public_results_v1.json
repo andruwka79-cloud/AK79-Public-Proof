@@ -1,7 +1,7 @@
 {
   "schema": "ak79.public.results.v1",
   "date": "2026-10-06",
-  "classification": "PUBLIC_SAFE_DERIVATIVE_OF_VERIFIED_INTERNAL_EVIDENCE",
+  "classification": "AUTHOR_REPORTED_INTERNAL_RESULTS_NOT_REPRODUCIBLE_FROM_THIS_REPOSITORY",
   "external_certification": false,
   "production_claim": false,
   "results": {
